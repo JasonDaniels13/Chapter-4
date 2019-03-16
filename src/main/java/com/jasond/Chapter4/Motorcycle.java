@@ -8,14 +8,12 @@ public class Motorcycle extends Vehicle {
     }
 
     //polymorphism
-    @Override
-    public void hooter() {
-        System.out.println("Motorcycle hooting: Beep Beep");
-
-    }
     public void wiper() {
-        System.out.println("Motorcycle turining wiper on");
+        System.out.println("Motorcycle turining wiper activated.");
     }
+    //abstraction
+    @Override
+    public void lights() {
 
-
+    }
 }

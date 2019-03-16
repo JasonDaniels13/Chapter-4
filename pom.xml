@@ -4,8 +4,13 @@
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>pom</packaging>
 	<modules>
-		<module>AlternativeSolution</module>
-	</modules>
+		<module>InterfaceModule</module>
+        <module>Question3</module>
+        <module>Question3_Interfaces</module>
+        <module>Question3_Encapsulation</module>
+        <module>Question3_Inheritance</module>
+        <module>Question3_Polymorphism</module>
+    </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>

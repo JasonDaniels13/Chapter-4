@@ -5,11 +5,14 @@ public class Airplane extends Vehicle {
 
 
     //polymorphism
-    @Override
-    public void hooter() {
-        System.out.println("Airplane hooting: Swooosh");
-    }
     public void wiper() {
-        System.out.println("Airplane turining wipers on");
+        System.out.println("Airplane turining wipers activated");
+    }
+
+    //abstraction
+    @Override
+    public void lights() {
+        System.out.println("Airplane lights going on.");
+
     }
 }

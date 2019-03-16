@@ -6,17 +6,20 @@ public class MainClass {
 
         Vehicle car = new BMW();
         Vehicle airplane = new Airplane();
+        Vehicle motorbike = new Motorcycle();
+
         Weather weather = new Weather();
 
 
-        car.hooter();
-        airplane.hooter();
+        //encapsulation
+        airplane.setColour("White");
+        System.out.println("The Aircraft is "+ airplane.getColour()+ " in colour");
 
         //inheriting the lights methods from Vehicle class
         car.lights();
 
         //polymorphism
-        weather.rain(car);
+        weather.rain(motorbike);
 
 
 
